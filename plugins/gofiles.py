@@ -145,10 +145,18 @@ async def query_mgs(client: Bot, message: Message):
             try:
                 await client.send_message(
                     chat_id=message.chat.id,
-                    text=Presets.NO_MEDIA.format(query_message, updated_query),
-                    reply_to_message_id=message.message_id,
+                    text=Presets.NO_MEDIA,
+                    reply_to_message_id=user_message[id],
                     parse_mode='html',
                     disable_web_page_preview=True
+                    reply_markup=InlineKeyboardMarkup(
+                        [
+                            [InlineKeyboardButton(
+                                "🔎 Click Here & Go to Google 🔍", url="))
+                             ]
+                        ])
+                )
+                user_message.clear()
                 )
             except Exception:
                 pass
