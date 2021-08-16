@@ -150,7 +150,7 @@ async def query_mgs(client: Bot, message: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [InlineKeyboardButton(
-                                "🔎 Click Here & Go to Google 🔍", url="https://www.google.com/search?q={}".format({init.user_message}))
+                                "🔎 Click Here & Go to Google 🔍", url="https://www.google.com/search?q={}".format(init.user_message))
                              ]
                         ])
                 )
