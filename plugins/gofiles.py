@@ -53,7 +53,7 @@ async def query_mgs(client: Bot, message: Message):
                                 reply_markup=InlineKeyboardMarkup(
                                     [
                                         [InlineKeyboardButton(
-                                            "👉 CLICK HERE 👈", url="t.me/{}?start={}".format(info.username, secret_query))
+                                            "📀 𝖢𝖫𝖨𝖢𝖪 𝖧𝖤𝖱𝖤 📀", url="t.me/{}?start={}".format(info.username, secret_query))
                                          ]
                                     ])
                             )
@@ -92,7 +92,7 @@ async def query_mgs(client: Bot, message: Message):
                                 reply_markup=InlineKeyboardMarkup(
                                     [
                                         [InlineKeyboardButton(
-                                            "👉 CLICK HERE 👈", url="t.me/{}?start={}".format(info.username, secret_query))
+                                            "📀 𝖢𝖫𝖨𝖢𝖪 𝖧𝖤𝖱𝖤 📀", url="t.me/{}?start={}".format(info.username, secret_query))
                                          ]
                                     ])
                             )
@@ -117,7 +117,7 @@ async def query_mgs(client: Bot, message: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [InlineKeyboardButton(
-                                "👉 START BOT 👈", url="t.me/{}".format(info.username))
+                                "📀 𝖢𝖫𝖨𝖢𝖪 𝖧𝖤𝖱𝖤 📀", url="t.me/{}".format(info.username))
                              ]
                         ])
                 )
@@ -133,7 +133,7 @@ async def query_mgs(client: Bot, message: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [InlineKeyboardButton(
-                                "👉 Click Here To View 👈", url="t.me/{}".format(info.username))
+                                "📀 𝖢𝖫𝖨𝖢𝖪 𝖧𝖤𝖱𝖤 📀", url="t.me/{}".format(info.username))
                              ]
                         ])
                 )
