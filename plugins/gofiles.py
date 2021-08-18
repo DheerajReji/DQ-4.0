@@ -155,5 +155,5 @@ async def query_mgs(client: Bot, message: Message):
                         ])
                 )
                 user_message.clear()
-            except Exception:
-                pass
+            except Exception as e:
+                print(e)
