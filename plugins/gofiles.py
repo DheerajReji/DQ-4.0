@@ -150,10 +150,10 @@ async def query_mgs(client: Bot, message: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [InlineKeyboardButton(
-                                "🔎 Click Here & Go to Google 🔍", url="https://www.google.com/search?q={}".format(query_message, updated_query)
+                                "🔎 Click Here & Go to Google 🔍", url="https://www.google.com/search?q={}".format(query_message, updated_query))
                              ]
                         ])
                 )
                 user_message.clear()
-            except Exception as e:
-                             print(e)
+            except Exception:
+                pass
