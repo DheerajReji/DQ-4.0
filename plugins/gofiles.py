@@ -109,15 +109,18 @@ async def query_mgs(client: Bot, message: Message):
                             time.sleep(e.x)
                         user_message[id] = message.message_id
         except Exception:
+                pass
+        else:
+            updated_query = query_message.replace(" ", "+")
             try:
                 await client.send_message(
                     chat_id=message.chat.id,
-                    text=Presets.PM_ERROR,
-                    reply_to_message_id=message.message_id,
+                    text=Presets.NO_MEDIA,
+                    reply_to_message_id = message.message_id,
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [InlineKeyboardButton(
-                                "📀 𝖢𝖫𝖨𝖢𝖪 𝖧𝖤𝖱𝖤 📀", url="t.me/{}".format(info.username))
+                                "🔎 Click Here & Go to Google 🔍", url="https://www.google.com/search?q={}".format(updated_query))
                              ]
                         ])
                 )
