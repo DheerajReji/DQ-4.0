@@ -1,8 +1,8 @@
 # ----------------------------------- https://github.com/m4mallu/gofilesbot ------------------------------------------ #
 
 class Presets(object):
-    CAPTION_TEXT_DOC = "<b>{}\n\n ᴘᴏᴡᴇʀᴇᴅ ʙʏ @MF_linKz</b>"
-    CAPTION_TEXT_VID = "\n\n<i>File Name:</i> {}\n\n<i>Size:</i> {}"
+    CAPTION_TEXT_DOC = "<code>{}\n\n ᴘᴏᴡᴇʀᴇᴅ ʙʏ @MF_linKz</code>"
+    CAPTION_TEXT_VID = "\n\n<code>File Name:</code> {}\n\n<code>Size:</code> {}"
     ASK_PM_TEXT = "<b>നിങ്ങൾ ചോദിച്ച മൂവി ലഭിക്കാൻ താഴെ കാണുന്ന ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക</b>"
     WELCOME_TEXT = "Hello.. <b>{}</b>\n<i>I can help you getting movies from</i> @MF_linKz"
     CLEAN_CHAT_MSG = "⚠️ <b>Deleting all messages..</b>"
